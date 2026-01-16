@@ -27,12 +27,7 @@ builder.Services.AddSwaggerGen(c =>
     { 
         Title = "Smart Factory API", 
         Version = "v1",
-        Description = "Smart Factory Production Monitoring API - Üretim hatları, kayıtlar ve analitik verileri yönetmek için RESTful API",
-        Contact = new OpenApiContact
-        {
-            Name = "Smart Factory Team",
-            Email = "support@smartfactory.com"
-        }
+        Description = "Smart Factory Production Monitoring API"
     });
     
     var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
